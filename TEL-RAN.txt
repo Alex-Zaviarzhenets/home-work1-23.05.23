@@ -1,0 +1,25 @@
+public class HomWork1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+
+
+        System.out.print("введите 1 число:");
+        double num1 = sc.nextDouble();
+
+        System.out.print("введите 2 число:");
+        double num2 = sc.nextDouble();
+
+        double result = num1 * num2;
+        int integerResult = (int) result;
+
+        System.out.println("результат умножения" + integerResult);
+
+
+
+
+
+
+        sc.close();
+    }
+}
